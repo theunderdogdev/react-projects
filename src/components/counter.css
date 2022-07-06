@@ -1,0 +1,11 @@
+button{
+	cursor: pointer;
+	padding: 10px 20px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid lime;
+	font-size: larger;
+}
+p{
+	font-size: 35px;
+}

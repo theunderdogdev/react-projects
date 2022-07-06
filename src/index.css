@@ -1,0 +1,23 @@
+:root{
+	--slate: #8892b0;
+	--slate-light: #a8b2d1;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+button{
+	cursor: pointer;
+	background-color: transparent;
+	outline: none;
+	border: none;
+}
+input{
+	outline: none;
+	border: none;
+}
+a{
+	text-decoration: none;
+}

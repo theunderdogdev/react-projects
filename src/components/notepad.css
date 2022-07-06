@@ -1,0 +1,38 @@
+textarea {
+	width: 100%;
+	margin-top: 100px;
+	height: calc(100% - 400px);
+	font-size: 20px;
+	color: #8892b0;
+	resize: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 15px;
+	border: 2px solid #a8b2d1;
+}
+
+.titles {
+	color: #a8b2d1;
+}
+
+.not-allowed {
+	color: red;
+}
+
+textarea::placeholder {
+	color: #a8b2d1;
+	transition: color 0.5s ease-in-out;
+}
+
+textarea:focus::placeholder {
+	color: transparent;
+}
+
+textarea::-webkit-scrollbar {
+	display: none;
+}
+
+.rendered {
+	color: #8892b0;
+	font-size: 18px;
+}
